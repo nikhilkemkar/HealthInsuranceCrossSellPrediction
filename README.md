@@ -24,3 +24,6 @@ Annual_Premium	(continous)	The amount customer needs to pay as premium in the ye
 Policy_Sales_Channel	(nominal)	Anonymized Code for the channel of outreaching to the customer ie. Different Agents, Over Mail, Over Phone, In Person, etc.
 Vintage	(continous)	Number of Days, Customer has been associated with the company.
 Response (Dependent Feature)	(dichotomous)	1 for Customer is interested, 0 for Customer is not interested.
+
+# Conclusion
+Starting from loading our dataset, we firstly performed data cleaning and refactoring by outlier detection and normalization of data. Then we covered EDA, feature selection and algorithm selection, and hyperparameter tuning. The Accuracy score obtained for all models was in the range of 68% to 85% before tuning After tuning the models we were able to get an accuracy of approx 87%. But we selected our best model as the model with an accuracy score of 85% considering precision and recall as we have an unequal number of observations in each class in our dataset, so accuracy alone can be misleading.
